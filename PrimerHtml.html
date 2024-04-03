@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- CSS de Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- JS de Bootstrap (opcional, pero necesario para algunos componentes interactivos) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="PrimerCss.CSS">
+</head>
+<body>
+    
+    <img src="/storage/emulated/0/Download/images.png" alt="Descripción de la imagen">
+    
+    <h1>Formulario</h1>
+    <h6>Ingrese sus datos:</h6>
+    <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Correo </label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+<div class="mb-,3">
+  <label for="exampleFormControlTextarea1" class="form-label">DNI:</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+</div>
+
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">CUIL:</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+</div>
+<h6>Seleccione su género:</h6>
+
+
+<select class="form-select" aria-label="Default select example">
+  <option selected>Género </option>
+  <option value="1">Femenino</option>
+  <option value="2">Masculino</option>
+  <option value="3">Otro</option>
+</select>
+
+<br><br>
+
+<table border="1">
+    <caption></caption>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Año</th>
+            <th>Materia</th>
+            <th>Carrera</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Lucrecia</td>
+            <td>2do</td>
+            <td>Base de datos</td>
+            <td>Analista Programador</td>
+        </tr>
+        <tr>
+            <td>Rocio</td>
+            <td>2do</td>
+            <td>Base de datos</td>
+            <td>Analista Programador</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <!--<tr>
+            <td colspan="3">Pie de tabla</td>
+        </tr> -->
+    </tfoot>
+</table>
+
+<button type="submit">Enviar</button>
+
+
+</body>
+</html>
